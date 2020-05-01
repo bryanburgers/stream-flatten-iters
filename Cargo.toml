@@ -12,7 +12,7 @@ description = "Flattens a stream of iterators into one continuous stream"
 keywords = ["async", "non-blocking", "futures", "stream", "iterator"]
 
 [dependencies]
-pin-utils = "0.1.0-alpha.4"
+pin-utils = "0.1.0"
 futures-core = { version = "0.3", default-features = false }
 
 [dev-dependencies]
