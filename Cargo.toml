@@ -1,0 +1,19 @@
+[package]
+name = "stream-flatten-iters"
+version = "0.1.0"
+authors = ["Bryan Burgers <bryan@burgers.io>"]
+edition = "2018"
+
+repository = "https://github.com/bryanburgers/stream-flatten-iters.git"
+homepage = "https://github.com/bryanburgers/stream-flatten-iters"
+license = "MIT"
+readme = "README.md"
+description = "Flattens a stream of iterators into one continuous stream"
+
+[dependencies]
+pin-utils = "0.1.0-alpha.4"
+futures-core = { version = "0.3", default-features = false }
+
+[dev-dependencies]
+futures = "0.3"
+tokio = { version = "0.2", features = ["macros", "sync", "stream", "rt-core"] }
